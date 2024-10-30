@@ -13,35 +13,56 @@
 
 
     <TextView
-        android:id="@+id/gerenciadorDeTarefas"
+        android:id="@+id/AppTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Bem-vidos!"
+        android:textColor="#030C5F"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/Imagem1Cheking"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/imagem_1" />
+
+    <TextView
+        android:id="@+id/AppNome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gerenciador de Tarefas"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:text="Activity list"
+        android:textColor="#072AEF"
         android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_marginBottom="50dp"/>
+        android:textStyle="italic" />
 
     <EditText
-        android:id="@+id/usuario"
+        android:id="@+id/Usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite seu Usuario"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="20dp"/>
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:hint="Nome De Usuario" />
 
-    <EditText
-        android:id="@+id/senha"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Digite sua senha"
-        android:layout_gravity="center"
-        android:layout_marginHorizontal="20dp"/>
+
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ENTRAR" />
+        android:textSize="30dp"
+        android:textColor="#030C5F"
+        android:backgroundTint="#75C3E8"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="Criar" />
 
 
 
