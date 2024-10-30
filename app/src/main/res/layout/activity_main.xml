@@ -62,7 +62,7 @@
         android:backgroundTint="#75C3E8"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="60dp"
-        android:text="Criar" />
+        android:text="Entrar" />
 
 
 
