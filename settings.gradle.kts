@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Projeto Toti"
+rootProject.name = "Activity List"
 include(":app")
+ 
